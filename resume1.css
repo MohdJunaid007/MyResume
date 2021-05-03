@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.cont{
+background-color: rgb(255, 255, 255);
+border: 4px solid rgb(134, 129, 129);
+display: grid;
+grid-template-columns: 1fr 2fr;
+height: auto;
+}
+
+.box{
+    border: gray 2px solid;
+    display: grid;
+   word-spacing: 2px;
+   margin: 5px;
+   padding: 1em;
+   background-color: darkgrey;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+}
+.bbox{
+    border: gray 2px solid;
+    display: grid;
+    height: 200px;
+    border-radius: 50px;
+}
+h1{
+    color: rgb(255, 255, 255);
+    padding: 1em;
+    text-shadow: rgb(255, 59, 75) 2px 2px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+}
+span{
+    background-color: yellow;
+    border-radius: 100px;
+    padding: 5px;
+}
+.mainheading{
+    background-color: rgb(226, 245, 244);
+    color: rgb(0, 0, 0);
+}
+.image{
+    height: 180px;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.flex{
+   
+        background-color: rgb(5, 5, 5);
+        
+        text-align: center;
+        justify-content: center;
+        border-radius: 50px;
+}
+.about{
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+    text-shadow: cyan 1px 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.about:hover{
+    color: cornflowerblue;
+    font-size: 20px;
+
+}
+.bbox{
+    background-color: rgb(24, 23, 23);
+    
+}
+h2{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-shadow: rgb(255, 59, 75) 2px 2px;
+    text-align: center;
+    font-size: 25px;
+}
+nav{
+    color: rgb(253, 251, 242) !important;
+}
+.heading{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-shadow: rgb(59, 199, 255) 2px 2px;
+    text-align: center;
+    font-size: 40px;
+}
+ul{
+    text-decoration: none;
+}
+h3{
+    font-size: 20px;
+    text-decoration: underline;
+
+}
+
+@media screen and (max-width:700px){
+    nav{
+        flex-direction: column;
+        padding: 10px 0px;
+
+    }
+    .bangif{
+        background-image: url(docs/Copy\ of\ A2\ \(1\).gif);
+        background-color: black;
+        
+    }
+    .flexc{
+        
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+.link{
+    color: blanchedalmond;
+}
+.flexc{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+   
+    justify-content: center;
+    }
+    .flex{
+        width: 195px;
+        height: 195px;
+        background-color: rgb(5, 5, 5);
+       
+        text-align: center;
+        font-style: italic;
+        color: rgb(245, 237, 237);
+        
+    }

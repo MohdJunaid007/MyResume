@@ -1,0 +1,77 @@
+h3{
+    color: aquamarine; text-align: center;
+}
+p,h4,h5,h6{
+    color: blue;text-align: center;
+}
+a{
+    color: brown;
+}
+li{
+    list-style-type: lower-greek;
+}
+.special{
+    font-size: large;text-shadow: rgb(21, 70, 71);color: crimson;font-style: inherit;text-align: center;
+}
+li.special{
+    font-weight: bold;
+}
+.clip{
+clip-path: polygon(50% 0%, 100% 35%, 82% 100%, 3% 90%, 0 35%);
+
+}
+#new
+{
+    color: rgb(0, 0, 0);
+    background-color: firebrick;
+}
+li[class]{
+    font-size: 1.5cm;
+}
+li[class="aa"]{
+    background-color: gold;
+}
+li[class~="a"]{
+    background-color: green;
+}
+form{ 
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 40px;
+    font-size: 20px;
+    padding: 10px;
+
+}                                  
+.con{
+background-color: rgb(218, 216, 216);
+padding: 10px 20px 15px 20px;       
+border: 5px solid chocolate;
+}
+fieldset{
+    background-color: cornsilk;
+}
+
+input[type="submit"]{
+    background-color: crimson;
+    border-radius: 10px;
+    cursor: zoom-in;
+    padding: 10px 10px;
+    border: none;
+    width: 100%;
+    text-align: center;
+
+}
+input[type="submit"]:hover{
+    background-color: darkblue;
+}
+.box{
+    box-sizing: content-box;
+    display: width 1600px;
+    height: 1000px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Google_Images_2015_logo.svg/1200px-Google_Images_2015_logo.svg.png");
+padding: 10px 10px 10px 10px;
+margin: 30px 30px 30px 30px;
+border: 10px color crimson;
+border-color: crimson;
+background-color: rgb(50, 220, 20);
+}
